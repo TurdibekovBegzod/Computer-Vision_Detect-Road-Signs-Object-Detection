@@ -1,0 +1,203 @@
+from __future__ import annotations
+
+# Auto-generated from Signs with defenetions.docx.
+# Keys must match model class names from best.pt/data.yaml.
+
+SIGN_DEFINITIONS = {'I-1': 'Oldinda yo‘l chapga keskin buriladi',
+ 'I-1.1': 'Oldinda yo‘l o’nga keskin buriladi',
+ 'I-10': 'Oldinda mashinani sekinlashtirish uchun yo‘lga baland qism qo‘yilgan.',
+ 'I-11': 'Sirpanchiq yo‘l',
+ 'I-14': 'Oldinda piyodalar yo‘lni kesib o‘tadigan joy bor.',
+ 'I-15': 'Oldinda maktab, bog‘cha yoki bolalar ko‘p yuradigan hudud bor.',
+ 'I-16': 'Oldinda velosipedchilar chiqishi yoki yo‘lni kesib o‘tishi mumkin',
+ 'I-17': 'Oldinda sigir, buqa yoki boshqa yirik uy hayvonlari yo‘lga chiqishi mumkin.',
+ 'I-18': 'Oldinda kiyik, bug‘u yoki boshqa yovvoyi hayvonlar yo‘lga chiqishi mumkin.',
+ 'I-19': 'Oldinda yo‘l ta’mirlanayotgan yoki qurilish ishlari ketayotgan bo‘lishi mumkin.',
+ 'I-2': 'Oldinda egri-bugri xavfli yo‘l bor.',
+ 'I-2.1': 'Oldinda egri-bugri xavfli yo‘l bor.',
+ 'I-20': 'Oldinda svetofor bor yoki svetoforli chorrahaga yaqinlashyapsiz.',
+ 'I-21': 'Oldinda trolleybus chiqishi yoki trolleybus yo‘li bilan kesishuv bor.',
+ 'I-25': 'Oldinda boshqa turdagi xavf bor',
+ 'I-26': 'Oldinda yo‘l ikki tomonlama bo‘ladi yoki qarama-qarshi yo‘nalishdagi mashinalar chiqadi.',
+ 'I-27': 'Oldinda asosiy yo‘lga boshqa kichik yo‘l qo‘shiladi yoki chorraha bor.',
+ 'I-28': 'Oldinda o‘ng tomondan kichik yo‘l asosiy yo‘lga qo‘shiladi.',
+ 'I-28.1': 'Asosiy yo‘l, o‘ng tomondan ikkinchi darajali yo‘l qo‘shilishi mumkin',
+ 'I-29': 'Asosiy yo‘l, chap tomondan ikkinchi darajali yo‘l qo‘shiladi',
+ 'I-29-1': 'Asosiy yo‘l, chap va o‘ng tomondan ikkinchi darajali yo‘llar qo‘shilishi mumkin',
+ 'I-3': 'Oldinda 20% qiyalikdagi nishab yo‘l bor.',
+ 'I-30': 'Aylanma harakatli chorraha oldinda bo‘lishi mumkin.',
+ 'I-34': 'Sirpanchiq yo‘l bo‘lishi mumkin.',
+ 'I-36': 'Oldinda to‘siqli temir yo‘l kesishmasi bo‘lishi mumkin',
+ 'I-37': 'Oldinda temir yo‘l kesishmasi bo‘lishi mumkin.',
+ 'I-38': 'Oldinda temir yo‘l kesishmasi bor',
+ 'I-39-1': 'Oldin qo‘yilgan tezlik, quvib o‘tish yoki boshqa cheklovlar endi amal qilmaydi.',
+ 'I-39-2': 'Temir yo‘l kesishmasigacha masofa kamayib bormoqda.',
+ 'I-39-3': 'Oldinda temir yo‘l kesishmasi bor va unga hali nisbatan uzoqroq masofa qolgan.',
+ 'I-4': 'Oldinda nishab yo‘l bor.',
+ 'I-40': 'Diqqat, oldinda xavfli hudud',
+ 'I-5': 'Oldinda yo‘l torayishi mumkin.',
+ 'I-5.1': 'Yo‘lning o‘ng tomoni torayishi mumkin.',
+ 'I-5.2': 'Yo‘lning chap tomoni torayishi mumkin.',
+ 'I-8': 'Oldinda yo‘lning yuzasi notekis, o‘nqir-cho‘nqir yoki g‘adir-budur bo‘ladi',
+ 'I-9': 'Oldinda yo‘lda ketma-ket past-baland notekis joylar bo‘ladi',
+ 'II-1': 'Chorrahada boshqa transport vositalariga yo‘l berish kerak.',
+ 'II-14': 'Velosipedda harakatlanish taqiqlanadi',
+ 'II-15': 'Mototsiklda harakatlanish taqiqlanadi',
+ 'II-16': 'Velosipedchilar va piyodalar harakati taqiqlanadi',
+ 'II-17': 'Piyodalar harakati taqiqlanadi',
+ 'II-2': 'To‘xtamasdan harakatlanish taqiqlanadi (STOP)',
+ 'II-21': 'Transport vositasining balandligi 4,5 metrdan oshmasligi kerak',
+ 'II-22': 'Transport vositasining umumiy vazni 24 tonnadan oshmasligi kerak',
+ 'II-23': 'Bir o‘qqa tushadigan yuk 7 tonnadan oshmasligi kerak',
+ 'II-26': 'Chapga burilish taqiqlanadi',
+ 'II-26.1': 'O’ngga burilish taqiqlanadi',
+ 'II-28': 'Quvib o‘tish taqiqlanadi',
+ 'II-3': 'Harakatlanish taqiqlanadi',
+ 'II-30': 'Tezlikni malum tezlikdan oshirish taqiqlanadi',
+ 'II-31': 'Xavfli yuk ortilgan transport vositalarining harakatlanishi taqiqlanadi',
+ 'II-33': 'Qarama-qarshi yo‘nalishdagi transport vositalariga yo‘l berish kerak.',
+ 'II-34': 'To‘xtab turish taqiqlanadi',
+ 'II-35': 'To‘xtash taqiqlanadi',
+ 'II-39': 'Zanjirli shinalardan foydalanish tavsiya etiladi',
+ 'II-4': 'Kirish taqiqlanadi',
+ 'II-40': 'Velosiped yo‘lagi',
+ 'II-41': 'Piyodalar yo‘lagi',
+ 'II-42': 'Velosipedchilar va piyodalar uchun umumiy yo‘lak',
+ 'II-42.1': 'Velosipedchilar va piyodalar uchun ajratilgan yo‘lak',
+ 'II-43': 'Piyodalar va velosipedchilar yo‘lag',
+ 'II-45': 'Faqat to‘g‘riga harakatlanish',
+ 'II-45.1': 'Faqat chapga harakatlanish',
+ 'II-45.2': 'Faqat o‘ngga harakatlanish',
+ 'II-46': 'Faqat to‘g‘riga yoki chapga harakatlanish',
+ 'II-46.1': 'Faqat to‘g‘riga yoki o‘ngga harakatlanish',
+ 'II-46.2': 'Faqat chapga yoki o‘ngga harakatlanish',
+ 'II-47': 'To‘siqni o‘ng tomondan aylanib o‘tish',
+ 'II-47.1': 'To‘siqni chap tomondan aylanib o‘tish',
+ 'II-47.3': 'To‘siqni chap yoki o‘ng tomondan aylanib o‘tish',
+ 'II-48': 'Aylanma harakat',
+ 'II-49': 'Minimal tezlik belgisi',
+ 'II-5': 'Yengil avtomobillarda harakatlanish taqiqlanadi',
+ 'II-7': 'Yuk avtomobillarining harakatlanishi taqiqlanadi',
+ 'III-1': 'Tor yo‘lda sizning yo‘nalishingizdagi transport vositalari ustun hisoblanadi, qarama-qarshi yo‘nalishdagi '
+          'transport vositalari yo‘l berishi kerak.',
+ 'III-10': 'Maxsus yuqori tezlikda harakatlanish qoidalari amal qiladi.',
+ 'III-10.1': 'Ushbu joydan avtomagistral yo‘li tugaydi va oddiy yo‘l qoidalari amal qila boshlaydi.',
+ 'III-100': 'Transport vositalari va avtobuslar turli yo‘nalishda harakatlanishi mumkin.',
+ 'III-11': 'Ikki tomonlama harakat',
+ 'III-11.1': 'Ikki tomonlama harakat tugashi',
+ 'III-112': 'Harakat yo‘nalishining o‘zgarishi',
+ 'III-12': 'Avtomobillar uchun moʻljallangan yoʻl',
+ 'III-12.1': 'Avtomobillar uchun moʻljallangan yoʻlning oxiri',
+ 'III-13': 'Bir tomonlama harakatlanish yoʻliga chiqish',
+ 'III-13.1': 'Yoʻl kengayib, yangi harakat qatori (polosa) qoʻshilishi.',
+ 'III-13.2': 'Yoʻl torayib, oʻng tomondagi qoʻshimcha harakat qatori (polosa) tugayapti',
+ 'III-14': 'Aholi punktining boshlanishi',
+ 'III-15': 'Aholi punktining oxiri',
+ 'III-16': 'Quvib oʻtish taqiqlangan hududning oxiri',
+ 'III-17': 'Kenglik cheklangan',
+ 'III-18': 'Eng kam tezlik belgilangan hududning oxiri',
+ 'III-2': 'Bir tomonlama harakatli yoʻl',
+ 'III-2.1': 'Bir tomonlama harakatli yoʻl tugagan va oldinda ikki tomonlama (qarama-qarshi) harakat boshlangan',
+ 'III-21': 'Yoʻldagi barcha oldingi cheklovlar va taqiqlarning bekor qilinishi.',
+ 'III-22': 'Yuk avtomobillarining barcha transport vositalarini quvib oʻtishini taqiqlash.',
+ 'III-23': 'Velosiped yoʻlkasining tugashi.',
+ 'III-27': 'Transport vositalarining toʻxtab turishini (stoyankani) taqiqlash.',
+ 'III-29': 'Belgilangan hududda eng yuqori tezlikni 10 km/s gacha cheklash.',
+ 'III-3': 'Tartibga solinmagan chorrahalardan birinchi boʻlib oʻtish huquqini beruvchi asosiy yoʻl.',
+ 'III-3.1': 'Chorrahadan imtiyozli (birinchi boʻlib) oʻtish huquqini beruvchi asosiy yoʻlning tugashi.',
+ 'III-30': 'Belgilangan hududda maksimal tezlik gacha cheklangan zonaning tugashi.',
+ 'III-32': 'Piyodalarning yoʻlni xavfsiz kesib oʻtishi uchun moʻljallangan yer osti piyodalar oʻtish joyi.',
+ 'III-32.1': 'Piyodalarning yoʻlni xavfsiz kesib oʻtishi uchun moʻljallangan yer usti piyodalar oʻtish joyi.',
+ 'III-33': 'Piyodalar va transport vositalari birgalikda harakatlanishi mumkin boʻlgan turar-joy dahasi (turar-joy '
+           'zonasi).',
+ 'III-34': 'Piyodalar va transport vositalari birgalikda harakatlanishi mumkin boʻlgan turar-joy dahasi (turar-joy '
+           'zonasi) tugashi.',
+ 'III-35': 'Transport vositalarini toʻxtab turishi (stoyanka) uchun moʻljallangan maxsus joy (Parkovka).',
+ 'III-37': 'Transport vositalarini toʻxtab turishi (stoyanka) uchun moʻljallangan maxsus parkovka zonasi.',
+ 'III-37.1': 'Transport vositalarini toʻxtab turishi uchun moʻljallangan maxsus parkovka zonasining tugashi.',
+ 'III-39': 'Shifoxona (kasalxona) joylashgan hudud.',
+ 'III-4': 'Kesib oʻtilayotgan yoʻlda transport vositalarining harakati koʻrsatilgan oʻq boʻylab faqat oʻngga '
+          'yoʻnaltirilgan bir tomonlama harakatli yoʻl.',
+ 'III-40': 'Transport vositalarini taʼmirlash (texnik xizmat koʻrsatish) shoxobchasi borligi haqidagi servis belgisi.',
+ 'III-43': 'Transport vositalariga yonilgʻi quyish shoxobchasi (AJS) borligi haqidagi servis belgisi.',
+ 'III-45': 'Yoʻlovchilar va haydovchilar ovqatlanishi uchun moʻljallangan kafe yoki ovqatlanish joyi (servis belgisi).',
+ 'III-46': 'Yoʻlovchilar va haydovchilar ichimlik suvidan foydalanishi mumkin boʻlgan ichimlik suvi manbai borligini '
+           'koʻrsatuvchi servis belgisi.',
+ 'III-47': 'Yoʻlovchilar va haydovchilarning qisqa muddatli dam olishi uchun moʻljallangan dam olish joyi (kemping '
+           'yoki dam olish maydonchasi servis belgisi).',
+ 'III-54': 'Yoʻnalishli transport vositalari (avtobus va trolleybuslar) toʻxtash joyi.',
+ 'III-55': 'Tramvay toʻxtash joyi va undan oʻtuvchi yoʻnalishlar (marshrutlar) haqida maʼlumot beruvchi belgi.',
+ 'III-56': 'Taksi toʻxtab turish joyi (taksi stoyankasi).',
+ 'III-6': 'Piyodalar o’tish yo’lagi',
+ 'III-60': 'Aloqa oʻrnatish (qoʻngʻiroq qilish) uchun moʻljallangan taksofon yoki telefon aloqa nuqtasi borligi '
+           'haqidagi servis',
+ 'III-7': "Yo'lda tavsiya e'tilgan tezlik",
+ 'III-78': 'Velosipedlar va mopedlarning koʻrsatilgan yoʻnalish (toʻgʻriga) boʻylab harakatlanishi uchun moʻljallangan '
+           'maxsus velosiped yoʻlakchasi (yoki velosiped harakati yoʻnalishi).',
+ 'III-79': 'Yoʻlovchilar va haydovchilar uchun moʻljallangan jamoat hojatxonasi (WC servis belgisi).',
+ 'III-8-1': 'Oldinda toʻgʻriga davom etgan yoʻlning oxiri berk koʻcha (tupik) ekanligi haqidagi maʼlumot-koʻrsatkich',
+ 'III-84': 'Aholi punktlari va boshqa obyektlarga borish yoʻnalishlarini koʻrsatuvchi dastlabki yoʻnalish koʻrsatkichi',
+ 'III-85-2': 'Chorrahada tasmalar boʻylab harakatlanish yoʻnalishlari: chap tasmadagi transport vositalariga faqat '
+             'toʻgʻriga, oʻng tasmadagilarga esa faqat oʻngga harakatlanish ruxsat etilganligini koʻrsatuvchi '
+             'maʼlumot-koʻrsatkich belgisi',
+ 'III-87': 'Aholi punktidagi koʻchalar, shohkoʻchalar va maydonlar chorrahasida shahar ichidagi obodonchilik '
+           'obyektlari hamda boshqa shaharlarga',
+ 'III-9': 'Yoʻnalishli transport vositalari (avtobus, trolleybus) harakatlanishi uchun maxsus ajratilgan va harakat '
+          'umumiy transport oqimiga qarshi yoʻnaltirilgan tasma mavjud boʻlgan bir tomonlama harakatli yoʻl.',
+ 'III-9.1': 'Yoʻnalishli transport vositalari (avtobus, trolleybus) harakatlanishi uchun maxsus ajratilgan va harakat '
+            'umumiy transport oqimiga qarshi yoʻnaltirilgan tasma mavjud boʻlgan bir tomonlama harakatli yoʻl tugashi',
+ 'III-90': 'Yoʻlning maʼlum bir qismi taʼmirlash yoki boshqa sabablar tufayli yopilganligi sababli, harakatlanish '
+           'vaqtincha chapga yoʻnaltirilganligini koʻrsatuvchi aylanib oʻtish',
+ 'IV-1': 'Asosiy yoʻl belgisi ostiga oʻrnatilib, oʻsha belgi amal qiladigan xavfli hudud, servis shoxobchasi yoki '
+         'cheklovgacha boʻlgan masofani koʻrsatuvchi qoʻshimcha axborot belgisi (Masofani koʻrsatish lavhasi).',
+ 'IV-1.1': 'Bildiradi" soʻzini ishlatmasdan, toʻgʻridan-toʻgʻri qoida va maʼno shaklida:Oldinda toʻxtamasdan '
+           'harakatlanish taqiqlangan (STOP) chorraha yoki bojxona punkti borligi va unga qadar aynan qancha masofa '
+           'qolganligi haqida ogohlantiruvchi qoʻshimcha axborot belgisi.',
+ 'IV-11': 'Toʻxtash yoki toʻxtab turish qoidalari buzilgan taqdirda, transport vositasi evakuator yordamida majburiy '
+          'ravishda jarima maydonchasiga olib ketilishini koʻrsatuvchi qoʻshimcha axborot belgisi (Evakuator '
+          'ishlamoqda lavhasi).',
+ 'IV-12': 'Asosiy yoʻl belgisi (odatda tezlikni cheklash yoki xavfli burilish belgilari) ostiga oʻrnatilib, u '
+          'koʻrsatgan qoidalar faqatgina qor, yomgʻir yoki doʻl yogʻib, yoʻl qoplamasi nam (hoʻl) boʻlgan vaqtda amal '
+          'qilishini koʻrsatuvchi qoʻshimcha axborot belgisi (Noqulay ob-havo sharoiti lavhasi).',
+ 'IV-12.1': 'Asosiy yoʻl belgisi ostiga oʻrnatilib, u koʻrsatgan qoidalar yoki cheklovlar faqat qish mavsumida, yaʼni '
+            'yoʻl qoplamasi muzlama (taygʻanchiq) boʻlgan yoki qor qoplagan vaqtda amal qilishini koʻrsatuvchi '
+            'qoʻshimcha axborot belgisi (Qishki davr / Muzlama lavhasi).',
+ 'IV-13-1': 'Chorrahada asosiy yoʻlning yoʻnalishi oʻzgarishini koʻrsatuvchi qoʻshimcha axborot belgisi (qalin qora '
+            'chiziq asosiy yoʻlni, ingichka chiziqlar esa ikkinchi darajali yoʻllarni anglatadi).',
+ 'IV-14': 'Faqat yengil avtomobillar, avtobuslar, mototsikllar, yoʻnalishli transport vositalari hamda ruxsat etilgan '
+          'toʻla vazni 3,5 tonnadan oshmaydigan yuk avtomobillarining harakatlanishiga ruxsat beruvchi buyuruvchi '
+          'belgi (Engil avtomobillar harakati koʻrsatkichi).',
+ 'IV-15': 'Asosiy belgi ostiga oʻrnatilib, u koʻrsatgan qoida, cheklov yoki taqiqlar faqat yengil avtomobillarga hamda '
+          'ruxsat etilgan toʻla vazni 3,5 tonnagacha boʻlgan yuk avtomobillariga taalluqli ekanligini koʻrsatuvchi '
+          'qoʻshimcha axborot belgisi (Transport vositasi turi lavhasi).',
+ 'IV-2': 'Asosiy yoʻl belgisi ostiga oʻrnatilib, u koʻrsatgan xavfli hudud, cheklov yoki taqiqning umumiy amal qilish '
+         'oraligʻini (uzunligini) koʻrsatuvchi qoʻshimcha axborot belgisi (Amal qilish oraligʻi lavhasi).',
+ 'IV-21': 'Asosiy yoʻl belgisi ostiga oʻrnatilib, u koʻrsatgan qoidalar, taqiqlar yoki cheklovlar faqat dam olish '
+          '(shanba, yakshanba) va qonunchilikda belgilangan bayram kunlarida amal qilishini koʻrsatuvchi qoʻshimcha '
+          'axborot belgisi (Dam olish va bayram kunlari lavhasi).',
+ 'IV-22': 'Oldinda temir yo‘l kesishmasi bor.',
+ 'IV-23': 'Yo‘l asosiy yo‘lga qo‘shiladi.',
+ 'IV-24': 'Tavsiya e’tilgan tezliklar',
+ 'IV-25': 'belgi ko‘rish vositalaridan foydalanish tavsiya etiladi',
+ 'IV-26': 'Transport vositalari orasida xavfli yaqin masofa mavjud.',
+ 'IV-26.1': 'Piyodalar transport vositalari harakatlanadigan hududda harakatlanmoqda.',
+ 'IV-3-1': 'Ma’lum masofadan keyin chap tomonga burilish mavjud.',
+ 'IV-3-2': 'Ma’lum masofadan keyin o’ng tomonga burilish mavjud.',
+ 'IV-4': 'Ma’lum masofada to‘siq mavjud.',
+ 'IV-4-1': 'Ikki tomonlama harakat tashkil etilgan',
+ 'IV-4-2': 'Harakat chap va o‘ng tomonga yo‘nalgan.',
+ 'IV-4-3': 'Harakat chap tomonga yo‘nalgan.',
+ 'IV-5.1': 'Belgilangan qoidaning amal qilish vaqt oralig’i',
+ 'IV-5.6': 'To‘xtash majburiyati mavjud.',
+ 'IV-6': 'Belgilar yuk avtomobillari uchun amal qiladi',
+ 'IV-7': 'Tramvay yoki avtobus bekati mavjud',
+ 'V-53': 'Aholi yashash hududi boshlanishi',
+ 'VI-2.1': 'Yo‘nalishning keskin o‘zgaradi',
+ 'VI-3-1': 'To‘siq yoki xavfli joy yaqinlashayapti',
+ 'VI-3.1-1': 'To‘siq yoki xavfli joy yaqinlashayapti',
+ 'VI-4': 'Harakat yo‘nalishining o‘ng tomonga keskin o‘zgaradi',
+ 'VI-4.1': 'Harakat yo‘nalishining chap tomonga keskin o‘zgaradi',
+ 'VII-4': 'Turistik yoki muhim obyektga yo‘nalish',
+ 'VII-6-4': 'Transport vositasini to‘xtash joyiga qo‘yish usuli'}
+
+MISSING_DEFINITION_CODES = ['II-32', 'III-68', 'IV-10']

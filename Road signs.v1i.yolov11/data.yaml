@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 168
+names: ['I-1', 'I-1.1', 'I-10', 'I-11', 'I-14', 'I-15', 'I-16', 'I-17', 'I-18', 'I-19', 'I-2', 'I-2.1', 'I-20', 'I-21', 'I-25', 'I-26', 'I-27', 'I-28', 'I-28.1', 'I-29', 'I-29-1', 'I-3', 'I-30', 'I-34', 'I-36', 'I-37', 'I-38', 'I-39-1', 'I-39-2', 'I-39-3', 'I-4', 'I-40', 'I-5', 'I-5.1', 'I-5.2', 'I-8', 'I-9', 'II-1', 'II-14', 'II-15', 'II-16', 'II-17', 'II-2', 'II-21', 'II-22', 'II-23', 'II-26', 'II-26.1', 'II-28', 'II-3', 'II-30', 'II-31', 'II-32', 'II-33', 'II-34', 'II-35', 'II-39', 'II-4', 'II-40', 'II-41', 'II-42', 'II-42.1', 'II-43', 'II-45', 'II-45.1', 'II-45.2', 'II-46', 'II-46.1', 'II-46.2', 'II-47', 'II-47.1', 'II-47.3', 'II-48', 'II-49', 'II-5', 'II-7', 'III-1', 'III-10', 'III-10.1', 'III-100', 'III-11', 'III-11.1', 'III-112', 'III-12', 'III-12.1', 'III-13', 'III-13.1', 'III-13.2', 'III-14', 'III-15', 'III-16', 'III-17', 'III-18', 'III-2', 'III-2.1', 'III-21', 'III-22', 'III-23', 'III-27', 'III-29', 'III-3', 'III-3.1', 'III-30', 'III-32', 'III-32.1', 'III-33', 'III-34', 'III-35', 'III-37', 'III-37.1', 'III-39', 'III-4', 'III-40', 'III-43', 'III-45', 'III-46', 'III-47', 'III-54', 'III-55', 'III-56', 'III-6', 'III-60', 'III-68', 'III-7', 'III-78', 'III-79', 'III-8-1', 'III-84', 'III-85-2', 'III-87', 'III-9', 'III-9.1', 'III-90', 'IV-1', 'IV-1.1', 'IV-10', 'IV-11', 'IV-12', 'IV-12.1', 'IV-13-1', 'IV-14', 'IV-15', 'IV-2', 'IV-21', 'IV-22', 'IV-23', 'IV-24', 'IV-25', 'IV-26', 'IV-26.1', 'IV-3-1', 'IV-3-2', 'IV-4', 'IV-4-1', 'IV-4-2', 'IV-4-3', 'IV-5.1', 'IV-5.6', 'IV-6', 'IV-7', 'V-53', 'VI-2.1', 'VI-3-1', 'VI-3.1-1', 'VI-4', 'VI-4.1', 'VII-4', 'VII-6-4']
+
+roboflow:
+  workspace: begzodasidev
+  project: road-signs-vanga-eldaq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/begzodasidev/road-signs-vanga-eldaq/dataset/1

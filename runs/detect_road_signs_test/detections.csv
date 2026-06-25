@@ -1,0 +1,2 @@
+image,class_id,class_name,meaning_uz,confidence,box_xyxy
+E:\Programming\Projects\AI\Detect Road Signs(Classification)\Road signs.v1i.yolov11\test\images\-1-_jpg.rf.1048eb96779bd1369865d04e54f515f9.jpg,13,I-21,"Ogohlantiruvchi belgilar, kod: I-21",0.9752,"[245.78, 183.14, 396.29, 413.45]"
